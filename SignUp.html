@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="signupstyle.css">
+</head>
+<body>
+
+   <div class="signup">
+    
+        <div class="logo">
+
+        </div>
+            <div class='create-account'>
+            <h1 class='account-header'>Create Account</h1>
+            <div class='google-account'>
+            <div class="google-account-image">
+
+            <a href="#">
+                </div>
+                    <p class="google-login">Continue with Google</p>
+                </div>
+              </a>
+            <a href="#">
+                <div class='linkedin-account'>
+                    <div class="linkedin-account-image">
+    
+                    </div>
+                    <p class="linkedin-login">Continue with Linkedin</p>
+                </div>
+            </a>
+            
+
+            <p class="or"> - OR - </p>
+
+
+                <div>
+                    <form onSubmit={submitHandler}  >
+        
+                        <input type="text" placeholder="Name" class="form-name" name="name" />
+                        <hr class="hr-line1" />
+                   
+                        <input type="email" class="form-email" placeholder="Email Address" name="email Address"  />
+                 
+                         <hr class="hr-line2" />
+
+                    
+                        <input type="text" class="form-password" placeholder="Password" name="password"  />
+                        <hr class="hr-line3" />
+
+
+                        <input type="password" class="form-confirm-password" placeholder="Confirm Password" name="confirmpassword"  />
+                    
+                        <hr class="hr-line4" />
+                        
+                        <div style={{display:"flex", alignItems:"flex-start"}}>
+                            <input type="checkbox" class="check-box" style={{}} id="readTerms" />
+                            <p class="terms">Creating an account means you’re okay with our Terms of Service, Privacy Policy.</p>
+                        </div>
+                        <button 
+                            class="auth_signup-submit"}
+                        >
+                            Register
+                        </button>
+
+                        <hr class="hr-line5" />
+                        <a href="#">
+                            <p class="already-have-account">Already have an account? <span class="login-span" >Login</span></p>
+                         </a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

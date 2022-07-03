@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+body{
+  width: 1448px;
+  height: 1030px;
+}
+.logo{
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  left: 33px;
+  top: -36px;
+  background: url(uventory1b-01\ \(1\).png);
+  border-radius: 450px;
+}
+
+.signup{
+  width:1448px ;
+  height: 1030px;
+  background: url(uvent\ bg.png);
+}
+.bg-image{
+  position: absolute;
+  width: 1448px;
+  height: 1030px;
+  left: 0px;
+  top: 0px;
+}
+.create-account{
+  position: absolute;
+  width: 861px;
+  height: 1024px;
+  left: 587px;
+  top: 10px;
+  background: #F9F9F9;
+  border-radius: 60px;
+}
+.account-header{
+  position: absolute;
+  width: 224px;
+  height: 42px;
+  left: 133px;
+  top: 187px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #525252;
+}
+.or{
+  position: absolute;
+  width: 44px;
+  height: 21px;
+  left: 360px;
+  top: 374px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.google-account{
+  box-sizing: border-box;
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  left: 154px;
+  top: 291px;
+  border: 1px solid #FFA500;
+  border-radius: 6px;
+}
+.google-account-image{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 13px;
+  top: 6px;
+  background: url(image\ 2.png);
+}
+.google-login{
+  position: absolute;
+  width: 132px;
+  height: 18px;
+  left: 63px;
+  top: 2px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.linkedin-account{
+  box-sizing: border-box;
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  left: 398px;
+  top: 291px;
+  border: 1px solid #FF9B21;
+  border-radius: 6px;
+}
+.linkedin-account-image{
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 12px;
+  top: 5px;
+  background: url(Glossy-Linkedin-icon-PNG.png);
+}
+.linkedin-login{
+  position: absolute;
+  width: 139px;
+  height: 18px;
+  left: 55px;
+  top: 2px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.hr-line1{
+  position: absolute;
+  width: 464px;
+  height: 0px;
+  left: 154px;
+  top: 486px;
+  border: 1px solid #000000;
+  margin: 0em;
+}
+.hr-line2{
+  position: absolute;
+  width: 464px;
+  height: 0px;
+  left: 150px;
+  top: 562px;
+  border: 1px solid #000000;
+  margin: 0em;
+}
+.hr-line3{
+  position: absolute;
+  width: 464px;
+  height: 0px;
+  left: 150px;
+  top: 638px;
+  border: 1px solid #000000;
+  margin: 0em;
+}
+.hr-line4{
+  position: absolute;
+  width: 464px;
+  height: 0px;
+  left: 150px;
+  top: 714px;
+  border: 1px solid #000000;
+  margin: 0em;
+}
+.hr-line5{
+  position: absolute;
+  width: 464px;
+  height: 0px;
+  left: 150px;
+  top: 815px;
+  border: 3px solid #FF9B21;
+  margin: 0em;
+}
+.form-name{
+  position: absolute;
+  width: 464px;
+  height: 21px;
+  left: 154px;
+  top: 457px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A1A1A1;
+  border-width: 0px;
+  background: #F9F9F9;
+}
+.form-email{
+  position: absolute;
+  width: 464px;
+  height: 21px;
+  left: 150px;
+  top: 533px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A1A1A1;
+  border-width: 0px;
+  background: #F9F9F9;
+}
+.form-password{
+  position: absolute;
+  width: 464px;
+  height: 21px;
+  left: 150px;
+  top: 609px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A1A1A1;
+  border-width: 0px;
+  background: #F9F9F9;
+}
+.form-confirm-password{
+  position: absolute;
+  width: 464px;
+  height: 21px;
+  left: 150px;
+  top: 685px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A1A1A1;
+  border-width: 0px;
+  background: #F9F9F9;
+}
+.terms{
+  position: absolute;
+  width: 408px;
+  height: 36px;
+  left: 197px;
+  top: 734px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A1A1A1;
+}
+.check-box{
+  box-sizing: border-box;
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  left: 150px;
+  top: 734px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #000000;
+  border-radius: 5px;
+}
+.already-have-account{
+  position: absolute;
+  width: 570px;
+  height: 24px;
+  left: 150px;
+  top: 882px;
+  background: #F9F9F9;
+  border-radius: 60px;
+}
+.login-span{
+  color: #FF9B21;
+}
+.login-span:hover{
+  color: #ebcfad;
+}
+.auth_signup-submit{
+  position: absolute;
+  width: 58px;
+  height: 21px;
+  left: 353px;
+  top: 786px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A1A1A1;
+  border-width: 0px;
+  background: #F9F9F9;
+}
+.auth_signup-submit:hover{
+  color: #FF9B21;
+}
